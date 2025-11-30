@@ -19,6 +19,8 @@ def attacks(row1, col1, row2, col2):
         return False
     return row1 == row2 or col1 == col2 or abs(row1 - row2) == abs(col1 - col2) #boolean outcome
 
+# For this part of the code (add_sequential_counter) I got some help from existing sources and found out that SAT solvers only understand boolean variables, 
+# so you cannot directly say “exactly 3 queens” which my problem specificly asks for this 
 
 # Add SAT clauses ensuring that exactly army size queens are placed
 # SAT encoding to control the number of true variables
