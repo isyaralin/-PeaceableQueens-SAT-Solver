@@ -1,3 +1,0 @@
-Maximum Peacable Army Size: K=8 on 4x4 board.
-White Queens: []
-Black Queens: []
